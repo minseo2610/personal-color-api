@@ -1,0 +1,118 @@
+Analyze the attached photograph and estimate the person’s best-fit
+four-season personal color category.
+
+For an assessable photograph, select exactly ONE primary label:
+- spring-warm
+- summer-cool
+- autumn-warm
+- winter-cool
+
+INPUT CONDITIONS
+There is one photograph, reportedly taken under ordinary, non-intense
+white indoor lighting. Work with this photograph alone, without asking
+questions or requiring additional photographs.
+
+Treat “white lighting” as capture context, not proof of neutral color
+rendering or correct camera white balance. Your result is a provisional
+styling estimate from the image.
+
+ASSESSMENT
+
+1. Check image usability.
+Assess facial visibility, exposure, blur, shadows, highlights, apparent
+color casts, mixed lighting, and possible reflected color from nearby
+clothing or walls.
+
+Mention makeup, filters, hair dye, or colored contact lenses only as
+visible or possible confounds. If their presence is unknown, keep it
+unknown; absence of obvious signs does not establish their absence.
+
+Separate image usability from classification confidence: a sharp,
+evenly exposed photograph can still leave the season uncertain.
+
+2. Describe the visible evidence before selecting a season.
+Examine several reasonably exposed skin regions, such as the forehead,
+cheeks, jaw, and visible neck. Discount localized redness, suspected
+cosmetic color, shine, and deep shadows.
+
+Assess these dimensions, allowing “uncertain” wherever necessary:
+- Apparent temperature: warm-leaning, cool-leaning, or indeterminate.
+- Value: the visible light-to-deep range.
+- Contrast: relative lightness differences between skin, visible hair,
+  eyebrows, and eyes.
+- Apparent color clarity: clearer/brighter versus softer/more muted.
+
+Distinguish what the photograph visibly shows from what you infer about
+undertone or suitable clothing colors. Low saturation in skin pixels
+does not establish suitability for muted palettes. Image sharpness
+does not establish suitability for bright palettes.
+
+3. Compare all four seasonal profiles.
+Use these as approximate styling profiles:
+- spring-warm: warm and relatively clear/bright.
+- summer-cool: cool and relatively soft/muted.
+- autumn-warm: warm and relatively soft/muted.
+- winter-cool: cool and relatively clear/bright.
+
+Use depth and contrast as supporting clues, rather than rigid rules.
+Evaluate the whole pattern and permit insufficient evidence for any
+dimension. Do not invent supporting or contradictory observations to
+complete the comparison.
+
+GUARDRAILS
+- Do not assign a season from skin depth, ethnicity, hair color, or eye
+  color alone. Any skin depth can occur in any seasonal family.
+- Yellow-looking skin does not automatically establish warmth;
+  pinkness or redness does not automatically establish coolness.
+- Olive appearance is not itself a warm/cool classification.
+- Dark hair or dark eyes do not automatically mean winter or autumn.
+- Do not assume visible hair color is natural or infer hidden features.
+- Do not treat teeth, eye whites, walls, or clothing as calibrated
+  neutral references.
+- Do not claim to recover true skin color or correct white balance
+  merely by looking at the photograph.
+- Do not invent HEX/RGB/Lab measurements, accuracy percentages, or
+  calibrated probabilities.
+- Do not claim to have observed responses to clothing colors or drapes
+  that are absent from the photograph. Generated or imagined draping
+  supplies no new evidence.
+
+DECISION
+Choose the best-supported primary label and the strongest different
+alternative. The alternative may belong to the opposite temperature
+family if lighting makes warmth versus coolness uncertain.
+
+If usable evidence exists but the distinction remains weak, still give
+the requested primary label and identify it as a tentative forced choice.
+
+Use qualitative confidence: LOW or MODERATE. Reserve MODERATE for
+reasonably consistent evidence with limited visible confounding.
+Use LOW when decisive dimensions are uncertain, contradictory, or
+sensitive to a possible lighting cast. Neither rating is a measured
+probability.
+
+If the image is missing, contains no assessable face, is monochrome,
+or has too little usable color information, state that classification
+is unavailable instead of inventing a label.
+
+OUTPUT
+Keep the response under 250 words:
+
+Primary result: [exact permitted label]
+Status: [provisional estimate / tentative forced choice]
+Confidence: [low / moderate]
+Image usability: [usable / limited], with the main issue if any
+
+Observed traits:
+- Apparent temperature:
+- Value:
+- Contrast:
+- Color clarity:
+
+Evidence: Up to three specific visible observations supporting the
+choice. Identify uncertain inferences honestly.
+
+Strongest alternative: [one different permitted label]
+Main unresolved distinction: [what this photograph cannot establish]
+
+End with: “This is a provisional estimate from one photograph.”
